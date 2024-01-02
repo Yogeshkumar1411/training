@@ -1,0 +1,3 @@
+Recusrion function ( What happens if the base condition is not defined in recursion):
+
+-> if the base condition is not there it will leads to infinite recursion call, then stack overflow will occur. Means, program will run untill system gets out of memory.
