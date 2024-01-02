@@ -1,0 +1,19 @@
+Compilation process:
+
+	a. Preprocess  ->Expanding macro
+		           ->Removing comments
+		           ->Including files (will get expanded source code - preprocessed source code)
+			       ->conditional compilation
+		           -> .c to .i file
+				   
+	b. Compilation ->Converting expanded source code into assembly code
+		           ->Will syntactical error validation happen
+		           ->Human can read this assembly code
+		           ->.i to .s file
+				   
+	c. Assembly    ->Converting assembly into object code, which is machine language
+		           ->.s to .o or .out file
+				   
+	d. Linking     ->It will combine object files and dynamic library files
+		           ->It will give o/p as executable binary code.
+		           ->.o to .exe
