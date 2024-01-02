@@ -1,0 +1,43 @@
+Storage class:
+
+	Storage classes are representing scope and life of the variables.
+4 types:	
+	auto
+	static
+	extern
+	register
+
+auto:
+	declaration: local variable
+	life: till end of the block
+	scope: only with in the block
+	memory: takes from stack
+	initial value: if the variable is uninitialized it is intialized with garbage value.
+	
+	
+static:
+	declaration: local and global variable
+	life: till end of the program
+	scope: local, with in the block; global, till end of the program
+	memory: takes from data section
+	initial value: if the variable is uninitialized it is intialized with zero.
+	
+extern:
+	declaration: global variable
+	life: till end of the program
+	scope: Can access from other files also
+	memory: takes from data section
+	initial value: if the variable is uninitialized it is intialized with zero.	
+	
+	
+register:
+	declaration: local variable
+	life: till end of the block
+	scope: only with in the block
+	memory: cpu register
+	initial value: if the variable is uninitialized it is intialized with garbage value.
+	
+	
+	
+	
+	
