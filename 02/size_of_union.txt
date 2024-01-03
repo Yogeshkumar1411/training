@@ -1,0 +1,14 @@
+what is the size of union  
+union test{ 
+int a; 
+int b; 
+char c; 
+float f; 
+}; 
+
+
+->for ex: int 4 bytes
+		  char 1 byte
+		  float 4 bytes
+		  
+		  the size of union is 4 bytes.

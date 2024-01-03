@@ -1,0 +1,18 @@
+what is the value of var? 
+
+union test{ 
+int a; 
+int b; 
+int c; 
+float f; 
+}; 
+
+t1.c=2; 
+t1.a=3; 
+t1.b=5; 
+t1.b= t1.a * t1.b * (t1.c++) 
+var = t1.c;
+
+
+->in union at a time we can store only one element
+->based on above statement the var will be 125

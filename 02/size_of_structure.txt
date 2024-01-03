@@ -1,0 +1,23 @@
+what is the size of structure 
+union test{ 
+int a; 
+int b; 
+char c; 
+float f; 
+}; 
+
+//union test t1,t2; 
+struct test_struct{ 
+union test t1; 
+union test t2;
+}; 
+
+
+->for ex: int 4 bytes
+		  char 1 byte
+		  float 4 bytes
+		  
+		  size of t1 = 4 bytes
+		  size of t2 = 4 bytes
+		  
+		  size of the structure is 8 bytes

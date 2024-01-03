@@ -1,0 +1,11 @@
+baud rate:
+The baud rate is the rate at which information is transferred to a communication channel. In the serial port context, the set baud rate will serve as the maximum number of bits per second to be transferred.
+
+what are mode in the UART:
+simplex
+half duplex
+full duplex
+
+simplex: One way communication (always one is transmitter one is receiver)
+half duplex: two way communication (both master and slave trasmit or master and slave receive). But not at same time.
+full duplex: both master and slave can transmit the data at same time

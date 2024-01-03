@@ -1,0 +1,66 @@
+1.Explain what p holds int (**p)[10];//it is pointer to an array pointer 
+2.Explain what p hold int (*p)[10];//this will holds the address of fist element in the array 
+3.what is the size of union  
+union test{ 
+int a; 
+int b; 
+char c; 
+float f; 
+}; 
+4 what is the size of structure 
+union test{ 
+int a; 
+int b; 
+char c; 
+float f; 
+}; 
+
+union test t1,t2; 
+struct test_struct{ 
+union t3; 
+union t4; 
+}; 
+
+5 what is the value of var? 
+
+union test{ 
+int a; 
+int b; 
+int c; 
+float f; 
+}; 
+
+t1.c=2; 
+t1.a=3; 
+t1.b=5; 
+t1.b= t1.a * t1.b * (t1.c++) 
+var = t1.c; 
+
+6.what is the value of var? 
+
+union test{ 
+int a; 
+int b; 
+int c; 
+float f; 
+}; 
+
+t1.c=2; 
+t1.a=3; 
+t1.b=5; 
+t1.b= t1.a * t1.b * (t1.c) 
+var = t1.c; 
+
+7.explain about UART 
+8.what is baud rate 
+9.what are mode in the UART 
+10.what is simplex,half duplex,full duplex 
+11.what id the value of f? 
+union test{ 
+int a; 
+int b; 
+char c; 
+float f; 
+}t1; 
+
+int t1.c=10 
