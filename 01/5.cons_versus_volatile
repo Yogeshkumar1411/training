@@ -1,0 +1,55 @@
+Const and volatile difference (volatile in detial):
+
+	Both const and volatile are qualifiers in C.
+	
+	const:
+		->This keyword is used to declare constants or variables whose values should not be modified after initialization.
+		->It can be applied to variables, function parameters, and function return types.
+			
+				const int constValue = 5;
+				
+		->If we try to change the variable "Value" after declaration it will result compilation error.
+
+	volatile:
+		->This keyword indicates the variable may change at any point of time, due to any externel influences like interrupts.
+		->It prevents the compiler optimizations of the variable.
+	  
+	 without volatile: 
+		int main()
+		{
+			int value = 10;
+			value = value+5;
+			printf("%d\n",value);
+		}
+		
+		-> in above example the variable "value" added with 5 and it is getting printed.
+		->step 1:
+			>the "value" loaded into register (base pointer) (movl $10, %rbp)
+		->step 2:
+			>the constant 5 will be added to that register (addl $5, %rbp)
+		->step 3:
+			>the added value moved to destination register (movl %rbp, %eax)
+			
+		->The compiler optimize the value to constant value because it doesn't see any use of the modified value.	
+			
+	 with volatile: 
+		int main()
+		{
+			volatile int voltileValue = 10;
+			voltileValue = voltileValue+5;
+			printf("%d\n",voltileValue);
+		}
+		
+		-> in above example the variable "voltileValue" added with 5 and it is getting printed.
+		->step 1:
+			>the "voltileValue" loaded into register (base pointer) (movl $10, %rbp)
+		->step 2:
+			>the loaded value moved to destination register (movl %rbp, %eax)
+		->step 3:
+			>the constant 5 added with destination register (addl $5, %eax)
+		->step 4:
+			>then it is moved from destination register to base pointer (movl %eax, %rbp)
+		
+		->With volatile, the compiler generates code that actually performs the addition operation, indicating that the value of volatileValue should be retrieved from memory, and the result should be written back.
+		
+		->Because this beneficial, we can use volatile in interrupts, since, the interrupt can change the value at point of time.
