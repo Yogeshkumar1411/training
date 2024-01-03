@@ -1,0 +1,4 @@
+What happen if we define static variable in header file and add in 2 different c file:
+
+	->If we define static variable in a header file and if we want to add that header file into two different c file means, each c file will have its own separate copy of the static variable.
+
