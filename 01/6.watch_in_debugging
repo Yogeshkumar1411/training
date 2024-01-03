@@ -1,0 +1,10 @@
+Have you used any debugging tools (if yes, then how can we check the local varible in watch window):
+
+	->Yes, I have used Visual Studio  2019 inbuild debugger. In that easily we can add watch window using GUI.
+	->If want to add watch window, the code should be in debug mode.
+	->And, we should have required breakpoints.
+	->the watch is very useful to evaluate the variables or the expressions.
+	
+	
+	->After that I have used GDB debugging tool. We can add by using command watch <variable_name>
+	->Same as like Visual Studio, the code should be in debug mode and it should have required breakpoints.
