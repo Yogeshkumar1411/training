@@ -1,0 +1,11 @@
+1.write function find the given number is prime or not. 
+
+2.anagram of string 
+
+3.what is static analyzer and dynamic analyzer 
+
+4.git commands 
+
+5.I2c protocol explanation 
+
+6.unit testing(EXPLAINED WITH MY OWN PROJECT )

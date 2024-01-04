@@ -1,0 +1,53 @@
+1. introduction. 
+
+2. project & tools used. 
+
+3. WCP to copy source to destination through the pointer 
+
+ans: 
+
+void copy(int *d,int *s,int n) 
+
+{ 
+
+ int i; 
+
+ for(i=0;i<n;i++) 
+
+  *d++=*s++; 
+
+} 
+
+error possibilities in above code? 
+
+  
+
+4. what is enidianess? 
+
+5. WCP to check our system is big or little enidian? 
+
+6. macro function to clear bit. 
+
+7. what is re entrant function? 
+
+8. explain spi. 
+
+9. explain pre & post increment. 
+
+10. explain storage classes. 
+
+11. explain compilation stages. 
+
+12. what is interrupt? 
+
+13. what is interrupt latency? 
+
+14. what factors will affect interrupt latency? 
+
+15. what will happen when interrupt triggered? 
+
+16. autosar layers. 
+
+17. what is RTOS? difference between RTOS & GPOS? 
+
+18. memory layout in C? 
