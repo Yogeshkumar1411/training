@@ -1,0 +1,11 @@
+1. Difference between macros and functions. 
+2. C programs to demonstrate macros and functions.(Advantages of using both) 
+3. C Compilation stages. 
+4. How does compiler work(what is meant by 16/32 bit compiler) 
+5. Can we flash a code compiled in 16 bit compiler on a 32 bit target board. 
+6. How to store 32 bit data into a 16 bit MCU ( write a program for it). 
+7. Write a c program to toggle 7th bit of a number. 
+8. what is Stack. How does data gets stored in it. Are there any exceptions. 
+9. What are interrupts. How many interrupts are there in STM32 MCU. 
+10. What happens if multiple or all interrupts are triggered at the same time. 
+11. How many Linker registers are there? 

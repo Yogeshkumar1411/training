@@ -1,0 +1,27 @@
+1. Toggle and clear bit in given number 
+
+2. Storage classes 
+
+3. Compilation process (in detail) 
+
+4. Recusrion function ( What happens if the base condition is not defined in recursion) 
+
+5. Const and volatile difference(volatile in detial) 
+
+6. Have you used any debugging tools(if yes, then how can we check the local varible in watch window) 
+
+7. What happen if we define static variable in header file and add in 2 different c file. 
+
+8. How can we read or write a value to fixed memory location(write a program) 
+
+9. Microprocessor and microcontroller difference 
+
+10. SPI protocol in detail 
+
+11. Have you worked on any testing process 
+
+12. ADC( vref =5v, adc 10bit, analog volt = 3v, digital value ?), Timer 
+
+13. Difference between 16 and 32 bit processor 
+
+14. Suppose we have to configure ADC, what are the steps(Reference datasheet)
