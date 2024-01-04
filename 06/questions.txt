@@ -1,0 +1,31 @@
+1. Self introduction 
+
+2. Do you know about unit testing ? 
+
+3. Will you be able to work on hybrid work mode with infineon. 
+
+4. Will you be flexible to work with both development as well as testing team ? 
+
+5. Write a C program to find the largest element in an array. 
+
+6. Write a C code to find the number of set bits and clear bits in a number. 
+
+7. Write a C code which uses function pointer in it. 
+
+8. Declare a structure with int,char[] and boolean data type and initialise the structure in compile time and print the values. 
+
+9. Write the frame format for I2C. 
+
+10. If a master is sending 10 Bytes of data to a slave. How will you find whether all the 10 Bytes are been received by the slave.\ 
+
+11. What IDE you have used ? 
+
+12. What version control you have used ? 
+
+13. What process you followed for your development ? 
+
+14. What are the controllers you are familiar with ? 
+
+15. Have you used Keil IDE for development ? 
+
+16. How did  you debugged  your code ?
