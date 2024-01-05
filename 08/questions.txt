@@ -1,0 +1,9 @@
+1) WRP to find number of bits in a number 
+
+2) WRP to swap nibbles in 1 byte number.  
+
+3) WRP to return, number of words either start or end with vowels in a string.  
+
+4) write the test case for the above program 
+
+5) Remove the middle node from the linked list 
